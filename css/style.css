@@ -1,0 +1,63 @@
+body{ 
+	background:radial-gradient(circle,#ccffe6 20%, grey); 
+	height:100vh;
+	}
+
+#calculator {
+	/*max-width:400px;*/
+		padding:40px 25px;
+		margin-top:100px;
+		/*background-color:#94b8b8;*/
+		background: linear-gradient( to right, #f2f2f2, #999999);
+		/*background: linear-gradient(to right, red , yellow);*/
+		border:2px solid black;
+		border-radius: 5px;
+		box-shadow: 0px 4px grey, 10px 15px rgba(0,0,0,.2);
+	}
+
+
+
+
+
+.screen {
+	width:100%;
+		padding:5px 10px;
+		background-color: rgba(0,0,0.2);
+		border-radius:3px;
+		box-shadow: inset 0px 4px rgba(0,0,0,.2);
+		font-size:25px;
+		font-family: 'Orbitron', sans-serif;
+		border:2px solid white;
+		background:linear-gradient(to right, #404040,black );
+		color:white;
+		font-weight:bold;
+
+
+	}
+
+.clear {
+	background:#4775d1;
+	box-shadow:4px 4px #24478f;
+	border:2px solid white;
+	color:white;
+	width:100%;
+	/*padding:7px 0px;*/
+	margin-top:0;
+	font-size:20px;
+	font-family: 'Orbitron', sans-serif;
+	font-weight:bold;
+}
+
+.number {
+	background:linear-gradient(to right,#e6e6ff, #b3b3ff );
+	box-shadow:4px 4px  #0000b3;
+	border:2px solid white;
+	color:black;
+	width:100%;
+	/*padding:10px 0px;*/
+	margin-top:15%;
+	font-size:20px;
+	font-family: 'Orbitron', sans-serif;
+	font-weight:bold;
+}
+

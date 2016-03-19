@@ -1,46 +1,55 @@
-function run1 () {
-	document.calc.input.value += "1";}
-function run2 () {
-	document.calc.input.value += "2";}
-function run3 () {
-	document.calc.input.value += "3";}
-function run4 () {
-	document.calc.input.value += "4";}
-function run5 () {
-	document.calc.input.value += "5";}
-function run6 () {
-	document.calc.input.value += "6";}
-function run7 () {
-	document.calc.input.value += "7";}
-function run8 () {
-	document.calc.input.value += "8";}
-function run9 () {
-	document.calc.input.value += "9";}
-function run0 () {
-	document.calc.input.value += "0";}
-function runMult () {
-	document.calc.input.value += "*";}
-function runSubtr () {
-	document.calc.input.value += "-";}
-function runAdd () {
-	document.calc.input.value += "+";}
-function runDiv () {
-	document.calc.input.value += "/";}
+$(document).ready(function(){
 
 
-function runEqu () {
+
+$("#one").click(function () {
+	document.calc.input.value += "1";});
+$("#two").click(function() {
+	document.calc.input.value += "2";});
+$("#three").click(function () {
+	document.calc.input.value += "3";});
+$("#four").click(function() {
+	document.calc.input.value += "4";});
+$("#five").click(function () {
+	document.calc.input.value += "5";});
+$("#six").click(function() {
+	document.calc.input.value += "6";});
+$("#seven").click(function () {
+	document.calc.input.value += "7";});
+$("#eight").click(function() {
+	document.calc.input.value += "8";});
+$("#nine").click(function () {
+	document.calc.input.value += "9";});
+$("#zero").click(function() {
+	document.calc.input.value += "0";});
+
+$("#multiply").click(function () {
+	document.calc.input.value += "*";});
+$("#subtract").click(function () {
+	document.calc.input.value += "-";});
+$("#add").click(function () {
+	document.calc.input.value += "+";});
+$("#divide").click(function () {
+	document.calc.input.value += "/";});
+
+
+$("#equals").click(function () {
 	var evalo = eval(document.calc.input.value);
 	document.calc.input.value = evalo;
-	}
+	});
 
-function runDel () {
+$("#clear").click(function () {
 	document.calc.input.value = " "
-	}
+	});
 
 
 
 
 
+
+
+});
+	
 
 
 

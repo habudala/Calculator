@@ -31,6 +31,8 @@ $("#add").click(function () {
 	document.calc.input.value += "+";});
 $("#divide").click(function () {
 	document.calc.input.value += "/";});
+$("#perk").click(function(){
+	$("input").addClass("perkclass");});
 
 
 $("#equals").click(function () {
@@ -39,7 +41,8 @@ $("#equals").click(function () {
 	});
 
 $("#clear").click(function () {
-	document.calc.input.value = " "
+	document.calc.input.value = " ";
+	$("input").removeClass("perkclass");
 	});
 
 

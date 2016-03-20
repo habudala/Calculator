@@ -62,3 +62,25 @@ body{
 	font-weight:bold;
 }
 
+
+.perkclass {transition: all 4s ease-in-out;
+			transform:rotateZ(4500deg);
+			border-radius:45%;
+			color:red;
+			padding:10px;
+			text-align: center;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
